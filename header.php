@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Blog Site Template">
     <meta name="author" content="https://youtube.com/FollowAndrew">    
-    <link rel="shortcut icon" href="images/logo.png"> 
+    <link rel="shortcut icon" href="/wp-content/themes/htmlwordpress/assets/images/logo.png"> 
     
   
   <?php
@@ -39,12 +39,13 @@
 						array(
 							'menu' => 'primary',
 							'container' => '',
-							'theme_location' => 'primary'
+							'theme_location' => 'primary',
+							'items_wrap'=>'<ul id="" class="navbar-nav flex-column text-sm-center text-md-left">%3$s</ul>'
 						)
 					);
 				?>
 				
-				<ul class="navbar-nav flex-column text-sm-center text-md-left">
+				<!-- <ul class="navbar-nav flex-column text-sm-center text-md-left">
 					<li class="nav-item active">
 					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Blog Home <span class="sr-only">(current)</span></a>
 					</li>
@@ -60,7 +61,8 @@
 					<li class="nav-item">
 					    <a class="nav-link btn btn-primary" href="contact.html"><i class="fas fa-envelope fa-fw mr-2"></i>Contact Us</a>
 					</li>
-				</ul>
+				</ul> -->
+
 				<hr>
 				<ul class="social-list list-inline py-3 mx-auto">
 					<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>

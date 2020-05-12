@@ -163,19 +163,19 @@ h6 {
   font-weight: bold
 }
 
-.header .nav-item.active .nav-link {
+.header .nav-itemactive a {
   color: rgba(0, 0, 0, 0.5)
 }
 
-.header .nav-item.active .nav-link:hover {
+.header .nav-itemactive a:hover {
   text-decoration: none
 }
 
-.header .nav-item .nav-link {
+.header .nav-item a {
   color: rgba(255, 255, 255, 0.8)
 }
 
-.header .nav-item .nav-link:hover {
+.header .nav-item a:hover {
   text-decoration: underline;
   color: rgba(0, 0, 0, 0.6)
 }
@@ -294,7 +294,7 @@ h6 {
   display: none
 }
 
-.blog-nav .nav-link {
+.blog-nav a {
   background: var(--primary);
   color: #fff;
   font-size: 1rem;
@@ -303,22 +303,22 @@ h6 {
   position: relative
 }
 
-.blog-nav .nav-link:hover {
+.blog-nav a:hover {
   background: var(--secondary);
 }
 
-.blog-nav .nav-link-prev {
+.blog-nav a-prev {
   border-right: 1px solid var(--secondary);
 }
 
-.blog-nav .arrow-prev {
+.blog-nav arrow-prev {
   position: absolute;
   left: 1rem;
   top: 1.25rem;
   color: #fff
 }
 
-.blog-nav .arrow-next {
+.blog-nav arrow-next {
   position: absolute;
   right: 1rem;
   top: 1.25rem;
@@ -512,7 +512,7 @@ div.comment:first-of-type {
   text-decoration: none;
 }
 
-.comment-meta .avatar {
+.comment-meta avatar {
   height: 4rem;
   position: absolute;
   left: 0;
@@ -543,19 +543,19 @@ div.comment:first-of-type {
 
 /* COMMENT CONTENT */
 
-.comment-content.entry-content>*:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+.comment-content.entry-content>*:not(alignwide):not(alignfull):not(alignleft):not(alignright):not(.is-style-wide) {
   width: 100%;
   background-color: var(--lightgray);
   padding: .5em;
 }
 
-.comment-content.entry-content .alignleft {
+.comment-content.entry-content alignleft {
 
   /*rtl:ignore*/
   margin-left: 0;
 }
 
-.comment-content.entry-content .alignright {
+.comment-content.entry-content alignright {
 
   /*rtl:ignore*/
   margin-right: 0;
