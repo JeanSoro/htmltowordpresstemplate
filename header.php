@@ -22,10 +22,11 @@
 <body>
     
     <header class="header text-center">	    
-		<a class="site-title pt-lg-4 mb-0" href="index.html">SiteName.dev</a>
+		<a class="site-title pt-lg-4 mb-0" href="index.html">
+			<?php echo get_bloginfo('name'); ?>
+		</a>
 		
 
-        
 	    <nav class="navbar navbar-expand-lg navbar-dark" >
            
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
